@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="colorPrimary">#00FF00</color> <!-- Bright green (like portal) -->
+    <color name="colorPrimaryDark">#008000</color> <!-- Darker green -->
+    <color name="colorAccent">#FFEB3B</color> <!-- Bright yellow -->
+
+    <!-- Backgrounds -->
+    <color name="backgroundLight">#FFFFFF</color> <!-- White background -->
+    <color name="backgroundDark">#F5F5F5</color> <!-- Light gray background -->
+
+    <!-- Text colors -->
+    <color name="textPrimary">#212121</color> <!-- Dark gray text -->
+    <color name="textSecondary">#757575</color> <!-- Medium gray text -->
+    <color name="textHighlight">#00FF00</color> <!-- Bright green for highlights -->
+
+    <!-- Other UI elements -->
+    <color name="buttonColor">#FF9800</color> <!-- Bright orange (like Morty's shirt) -->
+    <color name="cardBackground">#EEEEEE</color> <!-- Light gray card background -->
+</resources>
