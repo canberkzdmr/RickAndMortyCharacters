@@ -6,16 +6,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.rickandmortycharacters.domain.CharacterDetailUseCase
 import com.example.rickandmortycharacters.domain.EpisodesUseCase
-import com.example.rickandmortycharacters.network.service.RickAndMortyService
 import com.example.rickandmortycharacters.network.model.character_detail.CharacterDetail
 import com.example.rickandmortycharacters.network.model.character_detail.Episode
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
-import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel

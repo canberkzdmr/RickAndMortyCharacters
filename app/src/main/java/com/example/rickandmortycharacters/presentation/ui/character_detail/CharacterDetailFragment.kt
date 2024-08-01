@@ -1,7 +1,6 @@
 package com.example.rickandmortycharacters.presentation.ui.character_detail
 
 import android.os.Bundle
-import android.util.DisplayMetrics
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.rickandmortycharacters.databinding.FragmentCharacterDetailBinding
 import dagger.hilt.android.AndroidEntryPoint
-
 
 @AndroidEntryPoint
 class CharacterDetailFragment : Fragment() {

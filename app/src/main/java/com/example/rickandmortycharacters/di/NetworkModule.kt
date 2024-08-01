@@ -1,8 +1,5 @@
 package com.example.rickandmortycharacters.di
 
-import com.example.rickandmortycharacters.domain.CharacterDetailUseCase
-import com.example.rickandmortycharacters.domain.EpisodesUseCase
-import com.example.rickandmortycharacters.domain.LoadMoreCharactersUseCase
 import com.example.rickandmortycharacters.network.service.RickAndMortyService
 import dagger.Module
 import dagger.Provides

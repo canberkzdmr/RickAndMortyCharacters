@@ -3,7 +3,9 @@ package com.example.rickandmortycharacters.util
 import java.text.SimpleDateFormat
 import java.util.Locale
 import java.util.TimeZone
+import javax.inject.Singleton
 
+@Singleton
 object DateTimeUtils {
     fun formatDate(inputDateStr: String?): String {
         return inputDateStr?.let {
